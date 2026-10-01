@@ -33,6 +33,13 @@
     };
   }
 
-  root.TargetCore = { GRID, key, canonicalLongitude, inBounds, bounds };
+  function atLatLng(lat, lon) {
+    const i = Math.floor((lat - GRID.minLat) / GRID.dotH);
+    const j = Math.floor((canonicalLongitude(lon) - GRID.minLon) / GRID.dotW);
+    if (!inBounds(i, j)) throw Error('This position is outside the grid.');
+    return { i, j };
+  }
+
+  root.TargetCore = { GRID, key, canonicalLongitude, inBounds, bounds, atLatLng };
   if (typeof module !== 'undefined' && module.exports) module.exports = root.TargetCore;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
