@@ -1,0 +1,17 @@
+{
+  "name": "ebt-world-land-map",
+  "version": "1.0.0",
+  "description": "Worldwide land dataset and map viewer for EBT Dot Safari, derived from OpenStreetMap.",
+  "private": true,
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "@turf/bbox": "^7.1.0",
+    "@turf/bbox-polygon": "^7.1.0",
+    "@turf/boolean-intersects": "^7.1.0",
+    "@turf/helpers": "^7.1.0",
+    "shapefile": "^0.6.6",
+    "unzipper": "^0.12.3"
+  }
+}
