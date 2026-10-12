@@ -1,0 +1,370 @@
+{
+  "description": "Curated destination suggestions and removals for EBT Dot Safari. OSM names and point or centre coordinates are inherited unless overridden.",
+  "include": [
+    {
+      "id": "manual:8C7VC2RF+",
+      "dot": [
+        447,
+        418
+      ],
+      "name": "(Three Forks Beach Tongue)",
+      "lat": 35.440108,
+      "lon": -2.976522,
+      "euroUse": false,
+      "reason": "Tip of a narrow rock tongue off the Three Forks Beach; theoretically a land dot, but no settlement."
+    },
+    {
+      "id": "osm:relation:5011695",
+      "dot": [
+        461,
+        402
+      ],
+      "name": "Berlengas",
+      "euroUse": true,
+      "reason": "Berlengas, EBT id=146164"
+    },
+    {
+      "id": "osm:way:1390027721",
+      "dot": [
+        504,
+        431
+      ],
+      "euroUse": true,
+      "reason": "Belgian artificial energy island under construction"
+    },
+    {
+      "id": "osm:way:480571017",
+      "dot": [
+        513,
+        400
+      ],
+      "euroUse": true,
+      "reason": "An Tor island, with Blackrock (Co Mayo) Lighthouse"
+    },
+    {
+      "id": "osm:way:348787096",
+      "dot": [
+        503,
+        402
+      ],
+      "euroUse": true,
+      "reason": "Fastnet Rock, w/ Fastnet Lighthouse"
+    },
+    {
+      "id": "osm:way:653702396",
+      "dot": [
+        275,
+        533
+      ],
+      "reason": "Source: https://osm.org/way/653702396\nFeature: beach according to OSM; in reality, islet",
+      "euroUse": true
+    },
+    {
+      "id": "osm:way:12472483",
+      "dot": [
+        279,
+        538
+      ],
+      "reason": "Map correction: this dot is Sea. The land belongs to [279, 538]. Corrected in Target Map.\nSuggested name for [279, 538]: Glorieuses. Source: https://osm.org/way/12472483",
+      "euroUse": true
+    },
+    {
+      "id": "manual:68J7JMMR+7G",
+      "dot": [
+        329,
+        296
+      ],
+      "reason": "Point: 2.63323, -54.30866\nSource: https://geonames.org/3381454\nFeature: locality",
+      "name": "Ilakana Patatpe",
+      "lat": 2.633230,
+      "lon": -54.308660,
+      "euroUse": true
+    },
+    {
+      "id": "osm:node:6348112540",
+      "dot": [
+        330,
+        296
+      ],
+      "reason": "Source: https://osm.org/node/6348112540\nFeature: peak",
+      "euroUse": true
+    },
+    {
+      "id": "manual:68J8V25C+JX",
+      "dot": [
+        330,
+        297
+      ],
+      "reason": "Point: 2.85902, -53.97758\nSource: https://geonames.org/3381238\nFeature: island",
+      "name": "Langa Soula Tabiki",
+      "lat": 2.859020,
+      "lon": -53.977580,
+      "euroUse": true
+    },
+    {
+      "id": "manual:68M74R49+V6",
+      "dot": [
+        331,
+        296
+      ],
+      "reason": "Map correction: this dot is Unconquerable Euro Land (no places in GF). Corrected in Target Map.\nPoint: 3.107216, -54.181985 [manually corrected]\nSource: https://geonames.org/3383248\nFeature: populated place [only in Suriname]",
+      "name": "Pleiké",
+      "lat": 3.107216,
+      "lon": -54.181985,
+      "euroUse": false
+    },
+    {
+      "id": "osm:node:6348061044",
+      "dot": [
+        331,
+        298
+      ],
+      "reason": "Source: https://osm.org/node/6348061044\nFeature: peak",
+      "euroUse": true
+    },
+    {
+      "id": "osm:node:6348112544",
+      "dot": [
+        331,
+        299
+      ],
+      "reason": "Source: https://osm.org/node/6348112544\nFeature: peak",
+      "euroUse": true
+    },
+    {
+      "id": "manual:68M99486+2C",
+      "dot": [
+        332,
+        299
+      ],
+      "reason": "Point: 3.365068, -52.889000 [manually corrected after maps.apple.com]\nSource: https://geonames.org/3381572\nFeature: abandoned mine",
+      "name": "Grande Usine",
+      "lat": 3.365068,
+      "lon": -52.889000,
+      "euroUse": true
+    },
+    {
+      "id": "osm:node:3108270612",
+      "dot": [
+        333,
+        299
+      ],
+      "reason": "Source: https://osm.org/node/3108270612\nFeature: locality",
+      "euroUse": true
+    },
+    {
+      "id": "manual:68M8R44H+M3",
+      "dot": [
+        334,
+        297
+      ],
+      "reason": "Point: 3.806661, -53.872341 [manually corrected after maps.google.com]\nSource: https://geonames.org/3381930\nFeature: \"landing\"; in reality, populated place",
+      "name": "Dégrad Bois Blanc",
+      "lat": 3.806661,
+      "lon": -53.872341,
+      "euroUse": true
+    },
+    {
+      "id": "manual:68M8VJ87+CF",
+      "dot": [
+        334,
+        298
+      ],
+      "reason": "Point: 3.866022, -53.386375 [manually corrected after maps.apple.com]\nSource: https://geonames.org/3381879\nFeature: \"landing\"; in reality, populated place",
+      "name": "Saint-Léon",
+      "lat": 3.866022,
+      "lon": -53.386375,
+      "euroUse": true
+    },
+    {
+      "id": "osm:node:2319427184",
+      "dot": [
+        334,
+        299
+      ],
+      "reason": "Source: https://osm.org/node/2319427184\nFeature: locality",
+      "euroUse": true
+    },
+    {
+      "id": "manual:68P92FQ7+RG",
+      "dot": [
+        334,
+        300
+      ],
+      "reason": "Point: 4.039538, -52.536238 [manually corrected after maps.google.com]\nSource: https://geonames.org/3382361\nFeature: locality according to Geonames; gold quarry",
+      "name": "Bita",
+      "lat": 4.039538,
+      "lon": -52.536238,
+      "euroUse": true
+    },
+    {
+      "id": "osm:relation:862286",
+      "dot": [
+        445,
+        482
+      ],
+      "reason": "Source: https://osm.org/relation/862286\nFeature: islet",
+      "euroUse": true
+    },
+    {
+      "id": "osm:relation:851117",
+      "dot": [
+        447,
+        485
+      ],
+      "reason": "Source: https://osm.org/relation/851117\nFeature: island",
+      "euroUse": true
+    },
+    {
+      "id": "osm:relation:541475",
+      "dot": [
+        448,
+        489
+      ],
+      "reason": "Source: https://osm.org/relation/541475\nFeature: island",
+      "euroUse": true
+    },
+    {
+      "id": "osm:relation:547044",
+      "dot": [
+        452,
+        481
+      ],
+      "reason": "Source: https://osm.org/relation/547044\nFeature: island",
+      "euroUse": true
+    },
+    {
+      "id": "manual:8CFXJQMH+RM",
+      "dot": [
+        461,
+        425
+      ],
+      "reason": "Point: 39.634574, -0.220765\nPuerto de Sagunto (46520) has an EBT id (77046), and there's no special postal code for this dock, so a new EBT location must be created.",
+      "name": "Puerto de Sagunto - Muelle Sur",
+      "lat": 39.634574,
+      "lon": -0.220765,
+      "euroUse": true
+    },
+    {
+      "id": "manual:8GF5WJ97+VC",
+      "dot": [
+        462,
+        481
+      ],
+      "reason": "Point: 39.919644, 23.613543\nSource: maps.google.com\nFeature: beach",
+      "name": "Paralia Loutra",
+      "lat": 39.919644,
+      "lon": 23.613543,
+      "euroUse": true
+    },
+    {
+      "id": "manual:8GF5WP8X+FV",
+      "dot": [
+        462,
+        482
+      ],
+      "reason": "Point: 39.916144, 23.749725\nSource: maps.google.com\nFeature: cape with lighthouse",
+      "name": "Kanistro Cape",
+      "lat": 39.916144,
+      "lon": 23.749725,
+      "euroUse": true
+    },
+    {
+      "id": "osm:node:279633591",
+      "dot": [
+        463,
+        426
+      ],
+      "reason": "Source: https://osm.org/node/279633591\nFeature: neighbourhood",
+      "euroUse": true
+    },
+    {
+      "id": "manual:8GH422XM+C8",
+      "dot": [
+        467,
+        477
+      ],
+      "reason": "Point for Koupribta (GR): 41.048555,22.033318\nSource: maps.google.com\nFeature: trekking area",
+      "name": "Koupríbta",
+      "lat": 41.048555,
+      "lon": 22.033318,
+      "euroUse": true
+    },
+    {
+      "id": "manual:8GH48VQJ+R7",
+      "dot": [
+        468,
+        479
+      ],
+      "reason": "Point for Karkmo mountain hut (GR): 41.339548, 22.880720\nSource: maps.apple.com and maps.google.com\nFeature: mountain hut",
+      "name": "Karkmo mountain hut",
+      "lat": 41.339548,
+      "lon": 22.880720,
+      "euroUse": true
+    },
+    {
+      "id": "manual:8GH2VJ5C+CF",
+      "dot": [
+        469,
+        474
+      ],
+      "reason": "Point for Kosovo southermost point: 41.858562, 20.621157 [leaving a margin from the real border]\nSource: maps.apple.com and maps.google.com\nFeature: resting area on a bend on the road",
+      "name": "Kosovo southermost point",
+      "lat": 41.858562,
+      "lon": 20.621157,
+      "euroUse": true
+    },
+    {
+      "id": "manual:8CMPH8C5+F8",
+      "dot": [
+        476,
+        412
+      ],
+      "reason": "Point: 43.571183, -5.691687\nGijón and Gijón (33212) have both EBT location IDs (31605 and 74089), and there's no special postal code for this dock, so a new EBT location must be created.",
+      "name": "Gijón - Muelle Marcelino León",
+      "lat": 43.571183,
+      "lon": -5.691687,
+      "euroUse": true
+    },
+    {
+      "id": "osm:way:512630064",
+      "dot": [
+        476,
+        421
+      ],
+      "reason": "Source: https://osm.org/way/512630064\nFeature: beach",
+      "euroUse": true
+    },
+    {
+      "id": "osm:node:9566759280",
+      "dot": [
+        477,
+        465
+      ],
+      "reason": "Source: https://osm.org/node/9566759280\nFeature: isolated_dwelling",
+      "euroUse": true
+    },
+    {
+      "id": "osm:node:9287047395",
+      "dot": [
+        498,
+        421
+      ],
+      "reason": "Source: https://osm.org/node/9287047395\nFeature: cape",
+      "euroUse": true
+    },
+    {
+      "id": "manual:9F35XX89+36",
+      "dot": [
+        506,
+        434
+      ],
+      "reason": "Maasvlakte (3199) exists in EBT (id=57502). This is specifically a part of 3199 KD, still unconquered at the moment we checked. For the purpose of dot conquering, we suggest city-managers to locate Maasvlakte (3199 KD) at 51.9652, 3.9677:\nPoint: 51.965184, 3.968027\nSource: maps.google.com\nFeature: port",
+      "name": "Maasvlakte",
+      "lat": 51.965184,
+      "lon": 3.968027,
+      "euroUse": true
+    }
+  ],
+  "exclude": []
+}
