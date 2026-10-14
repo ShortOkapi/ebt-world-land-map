@@ -465,7 +465,90 @@
       ],
       "euroUse": true,
       "reason": "Source: https://fr.wikipedia.org/wiki/Archipel_des_Gl%C3%A9nan\nThere is an OSM id for the archipelago, https://osm.org/relation/332410, but the 1st place location should be a point in an island. Suggested:\nÎle Saint-Nicolas, https://osm.org/relation/7848444\nPrepared point: OSM outline bounding-box centre."
+    },
+    {
+      "id": "osm:relation:2301095",
+      "dot": [
+        456,
+        485
+      ],
+      "name": "Kalogeroi Islets",
+      "euroUse": true,
+      "reason": "Miguel reviewed the group name Kalogeroi Islets. The main islet supplies the arrival point; inherit its OSM centre. The obsolete English label Megalos Kalogeros is not shown as a second line."
     }
   ],
-  "exclude": []
+  "exclude": [
+    {
+      "id": "osm:relation:2214681",
+      "dot": [
+        419,
+        383
+      ],
+      "reason": "The reviewed El Hierro Airport destination replaces the generic El Hierro suggestion in this dot."
+    },
+    {
+      "id": "osm:relation:2214683",
+      "dot": [
+        419,
+        387
+      ],
+      "reason": "The reviewed Playa del Tasarte destination replaces the generic Gran Canaria suggestion in this dot."
+    },
+    {
+      "id": "osm:relation:2214682",
+      "dot": [
+        422,
+        391
+      ],
+      "reason": "The reviewed Junquillo destination replaces the generic Fuerteventura suggestion in this dot."
+    },
+    {
+      "id": "osm:relation:1715038",
+      "dot": [
+        436,
+        385
+      ],
+      "reason": "The reviewed Funchal - Lido destination replaces the generic Madeira Island suggestion in this dot."
+    },
+    {
+      "id": "osm:relation:7393727",
+      "dot": [
+        458,
+        356
+      ],
+      "reason": "The reviewed Ponta dos Capelinhos destination replaces the generic Faial Island suggestion in this dot."
+    },
+    {
+      "id": "osm:relation:4822054",
+      "dot": [
+        459,
+        360
+      ],
+      "reason": "The reviewed Ponta dos Biscoitos destination replaces the generic Ilha Terceira suggestion in this dot."
+    },
+    {
+      "id": "osm:way:138567212",
+      "dot": [
+        462,
+        427
+      ],
+      "reason": "The reviewed Illes Columbretes destination replaces the generic el Carallot suggestion in this dot."
+    },
+    {
+      "id": "osm:way:10520865",
+      "dot": [
+        471,
+        464
+      ],
+      "reason": "The reviewed Palagruža destination replaces the generic Galijula suggestion in this dot."
+    },
+    {
+      "id": "osm:way:549651021",
+      "dot": [
+        490,
+        416
+      ],
+      "reason": "The reviewed Glénan Islands destination replaces the generic Baz Cren suggestion in this dot."
+    }
+  ]
 }
