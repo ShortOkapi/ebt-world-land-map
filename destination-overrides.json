@@ -364,6 +364,107 @@
       "lat": 51.965184,
       "lon": 3.968027,
       "euroUse": true
+    },
+    {
+      "id": "manual:7CV4R477+JW",
+      "dot": [
+        419,
+        383
+      ],
+      "euroUse": true,
+      "reason": "Point: 27.814069, -17.885130\nSource: maps.google.com\n(OSM's \"El Hierro Airport\" is off the dot)\nPrepared point: Miguel supplied map point.",
+      "name": "El Hierro Airport",
+      "lat": 27.814069,
+      "lon": -17.885130
+    },
+    {
+      "id": "osm:way:365304693",
+      "dot": [
+        419,
+        387
+      ],
+      "euroUse": true,
+      "reason": "Source: https://osm.org/way/365304693\nfeature: beach\nPrepared point: Checked interior point of the mapped feature.",
+      "lat": 27.869983,
+      "lon": -15.805085
+    },
+    {
+      "id": "manual:7CW7FV6J+8J",
+      "dot": [
+        422,
+        391
+      ],
+      "euroUse": true,
+      "reason": "Point: 28.460769, -14.118381\nSource: maps.google.com\nName the dot \"Junquillo\", name the point \"Playa del Junquillo\"\nPrepared point: Miguel supplied map point.",
+      "name": "Playa del Junquillo",
+      "lat": 28.460769,
+      "lon": -14.118381
+    },
+    {
+      "id": "osm:node:4405969097",
+      "dot": [
+        436,
+        385
+      ],
+      "euroUse": true,
+      "reason": "two destinations:\nSource 1: https://osm.org/node/4405969097\nSource 2: https://osm.org/node/3995320549\nspecific postal codes in Funchal + Ponta do Garajau\nPrepared point: OSM node."
+    },
+    {
+      "id": "osm:node:3995320549",
+      "dot": [
+        436,
+        385
+      ],
+      "euroUse": true,
+      "reason": "two destinations:\nSource 1: https://osm.org/node/4405969097\nSource 2: https://osm.org/node/3995320549\nspecific postal codes in Funchal + Ponta do Garajau\nPrepared point: OSM node."
+    },
+    {
+      "id": "osm:way:508697744",
+      "dot": [
+        458,
+        356
+      ],
+      "euroUse": true,
+      "reason": "Source: https://osm.org/way/508697744\nfeature: lighthouse\nEBT ID 211849\nPrepared point: OSM outline bounding-box centre."
+    },
+    {
+      "id": "osm:node:3441536893",
+      "dot": [
+        459,
+        360
+      ],
+      "euroUse": true,
+      "reason": "Source: https://osm.org/node/3441536893\nfeature: locality\nBiscoitos is EBT ID=117857, this is part of it; some postal codes are geolocated here\nPrepared point: OSM node."
+    },
+    {
+      "id": "osm:relation:9434769",
+      "dot": [
+        462,
+        427
+      ],
+      "euroUse": true,
+      "reason": "Source: https://osm.org/relation/9434769\nfeature: archipelago\nPrepared point: Checked interior point of the mapped feature.",
+      "lat": 39.897049,
+      "lon": 0.683319
+    },
+    {
+      "id": "osm:relation:10052315",
+      "dot": [
+        471,
+        464
+      ],
+      "euroUse": true,
+      "reason": "Source: https://osm.org/relation/10052315\nfeature: islet\nuse the name Palagruža, instead of Vela Palagruža\nPrepared point: OSM outline bounding-box centre.",
+      "name": "Palagruža"
+    },
+    {
+      "id": "osm:relation:7848444",
+      "dot": [
+        490,
+        416
+      ],
+      "euroUse": true,
+      "reason": "Source: https://fr.wikipedia.org/wiki/Archipel_des_Gl%C3%A9nan\nThere is an OSM id for the archipelago, https://osm.org/relation/332410, but the 1st place location should be a point in an island. Suggested:\nÎle Saint-Nicolas, https://osm.org/relation/7848444\nPrepared point: OSM outline bounding-box centre."
     }
   ],
   "exclude": []
