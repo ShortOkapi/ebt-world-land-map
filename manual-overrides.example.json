@@ -1,0 +1,21 @@
+{
+  "description": "FORMAT EXAMPLES ONLY. The viewer does not load this file. Copy only reviewed entries into manual-overrides.json; these sample decisions are not verified corrections.",
+  "include": [
+    {
+      "dot": [
+        0,
+        0
+      ],
+      "reason": "Example only: replace these row/column indices and explain your verified land addition."
+    }
+  ],
+  "exclude": [
+    {
+      "dot": [
+        10,
+        10
+      ],
+      "reason": "Example only: replace these row/column indices and explain your verified land removal."
+    }
+  ]
+}
