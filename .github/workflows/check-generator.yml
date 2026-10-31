@@ -1,0 +1,22 @@
+name: Check world generator
+on:
+  push:
+    paths: ['generate.js', 'core.js', 'manual-overrides.json', 'osm-base-mask.json', 'package.json', 'package-lock.json', 'tools/check-generator.cjs', '.github/workflows/check-generator.yml']
+  pull_request:
+    paths: ['generate.js', 'core.js', 'manual-overrides.json', 'osm-base-mask.json', 'package.json', 'package-lock.json', 'tools/check-generator.cjs', '.github/workflows/check-generator.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - run: npm ci --ignore-scripts
+      - run: npm test
