@@ -4,13 +4,13 @@ Worldwide land dataset and map viewer for [EBT DotPick](https://github.com/Short
 
 [Open EBT World Land Map](https://shortokapi.github.io/ebt-world-land-map)
 
-Candidate **1.0.1-rc.2**; current stable source release **1.0.0**. The source grid and shipped osm-base-mask.json are unchanged. The live placeholder overrides have been removed. With the shipped base, the viewer now counts **201,342** land dots instead of **201,341**; Antarctic dot **[10, 10]** is no longer removed by an example. The example inclusion [0, 0] was already land in the base and did not change the effective count.
+Version **1.0.1**, the reliability update following **1.0.0**. The source grid and shipped osm-base-mask.json are unchanged. The live placeholder overrides have been removed. With the shipped base, the viewer now counts **201,342** land dots instead of **201,341**; Antarctic dot **[10, 10]** is no longer removed by an example. The example inclusion [0, 0] was already land in the base and did not change the effective count.
 
 ## Maintained files
 
 - **osm-base-mask.json** is the generated worldwide land/no-land mask, with the legacy grid, a land count and sorted row ranges. It is derived from OSM coastline land polygons; it does not by itself remove inland lakes or establish access, cash availability or Euro-use eligibility.
 - **manual-overrides.json** contains reviewed additions/removals. Both arrays are currently empty. Use manual-overrides.example.json to see the exact format; it is never loaded by the viewer. Keep illustrative entries in that separate file, not the live arrays. Preserve real reviewed overrides in future revisions.
-- **destination-overrides.json** remains the maintained source for prepared place exceptions. It is used by external place preparation and is not an unused file to delete. This candidate does not change it.
+- **destination-overrides.json** remains the maintained source for prepared place exceptions. It is used by external place preparation and is not an unused file to delete. This release does not change it.
 - **core.js** defines the legacy grid used by the generator and viewer. Do not renumber cells or round the calculation constants. The old grid ID intentionally retains Dot Safari's name.
 
 ## Generator reliability
@@ -62,8 +62,8 @@ The separate **Generate OSM Base Mask** workflow (or the developer command `npm 
 
 ## Coordinating consumers
 
-This candidate prepares the corrected world source and clarified viewer only. DotPick's bundled mirror and Target Map's pinned classification background are updated in the follow-up, after the corrected source is committed and has a real GitHub commit/hash to record. The source commit, base hash and overrides hash must describe the same source files; do not invent a commit or reuse old provenance for changed bytes.
+The coordinated release uses these corrected source files in DotPick 2.3.1 and Target Map 1.3.2 / map revision 105. Their pinned source is commit **840b9d5eac95b9e61bf2375589c63cc8bbc6ccaa**. This stable-version preparation changes only release metadata/documentation; the base and live overrides retain the exact bytes at that accepted source commit. That earlier commit remains valid provenance and must remain reachable in the published source history. The source commit, base hash and overrides hash must describe the same source files; do not invent a commit or reuse old provenance for changed data bytes.
 
-Target Map's explicit decisions and history must survive its background refresh, and its master/compact revision must advance together. DotPick's Notes and prepared place lists are separate from this correction. Continue on the release branches until the coordinated changes and final release checks are complete.
+For future source corrections, preserve Target Map's explicit decisions/history, advance its master/compact revision together and refresh DotPick's relevant fallbacks. DotPick's Notes and prepared place lists are separate from land corrections. Deploy coordinated changes source-first: World Land Map, then Target Map, then DotPick.
 
 OSM-derived data © OpenStreetMap contributors, under ODbL 1.0. Application code is MIT.

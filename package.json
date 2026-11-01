@@ -1,6 +1,6 @@
 {
   "name": "ebt-world-land-map",
-  "version": "1.0.1-rc.2",
+  "version": "1.0.1",
   "description": "Worldwide land dataset and map viewer for EBT DotPick, derived from OpenStreetMap.",
   "private": true,
   "scripts": {
