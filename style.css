@@ -25,7 +25,16 @@ h1 {
   font-size: 13px;
   color: #9bbcd0;
 }
+#map-limits {
+  margin-top: 6px;
+  max-width: 760px;
+  font-size: 12px;
+  color: #c5dbe8;
+}
+#map-limits summary { cursor: pointer; }
+#map-limits p { margin: 6px 0 0; }
 .legend {
+  flex-wrap: wrap;
   display: flex;
   gap: 15px;
   font-size: 13px;
@@ -46,6 +55,7 @@ h1 {
 .exclude { background: #e11d48; }
 
 #map {
+  min-height: 120px;
   flex: 1;
   background: #e7edef;
 }

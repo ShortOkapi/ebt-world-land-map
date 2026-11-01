@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>EBT Dot Safari · Worldwide Land Map</title>
+  <title>EBT DotPick · Worldwide Land Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <link rel="stylesheet" href="./style.css">
@@ -11,8 +11,13 @@
 <body>
   <header>
     <div>
-      <h1>EBT Dot Safari · Worldwide Land Map</h1>
+      <h1>EBT DotPick · Worldwide Land Map <span style="font-size:11px;font-weight:400">v1.0.1</span></h1>
       <p id="status">Loading dataset...</p>
+      <details id="map-limits">
+        <summary>Map limits and world seam</summary>
+        <p>The dataset retains the full legacy grid, rows 0–641. This background map shows about 85.05°S to 85.05°N: rows 16–624, with the outer rows partly clipped. Polar dots remain in the dataset.</p>
+        <p>At close zoom, dark dashed lines mark the ±180° world seam and the north/south display cutoffs. Columns 853 and −3 are separate partial cells on its two sides; their IDs and geographic limits are unchanged.</p>
+      </details>
     </div>
     <div class="legend">
       <span><span class="swatch osm"></span> OSM Base Land</span>
