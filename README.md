@@ -27,7 +27,7 @@ The grid and source dataset keep rows **0–641** and columns **−3–853**, wi
 
 With the shipped base and empty live overrides there are **201,342 land dots worldwide**, of which **187,630** intersect the map’s latitude band. The other **13,712** polar land dots remain in the dataset. The status line distinguishes these counts; neither is the number currently on screen. Clicks beyond the map’s latitude band do not create misleading polar-dot popups.
 
-At close zoom a dark dashed line marks the **±180° world seam**. The partial edge cells in columns **853** and **−3** are distinct. The seam is the map’s wrap cut, not a newly invented full-width column or a change to either cell. Repeated world copies retain the same canonical IDs.
+At close zoom, matching dark dashed lines mark the **±180° world seam** and the **north/south display cutoffs near ±85.0511°**. The horizontal strokes show the projection’s cut through the partly visible edge rows; ordinary geographic grid boundaries remain unchanged. The partial edge cells in columns **853** and **−3** are distinct. The seam is the map’s wrap cut, not a newly invented full-width column or a change to either cell. Repeated world copies retain the same canonical IDs.
 
 ## How to write a manual override
 
